@@ -1,1 +1,25 @@
+//You need to split the text into separate words, and then reverse each word individually.
+
+function wordsReverser(string){
+    return string.split("").reverse().join("")  
+    }
+    
+    console.log(wordsReverser('hello beautiful people'));
+
+//results 
+
+//elpoep lufituaeb olleh
+
+
+//another example
+
+function wordsReverser(string){
+    return string.split("").reverse().join("").split(" ").reverse().join(" ")  
+}  
+    
+    console.log(wordsReverser("Welcome to this Javascript Guide!"));
+
+//result
+
+//emocleW ot siht tpircsavaJ !ediuG
 
